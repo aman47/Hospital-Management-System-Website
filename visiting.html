@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Visiting Hours</title>
+	<link rel="stylesheet" href="visit.css">
+<script>
+function abc(){
+var x = confirm("DO you want to continue ?");
+if(x==false)
+{
+	return false;
+}
+else{
+	open("APPOINTMENT.html");
+}
+/*if( retval == true){
+ document.write ("User wants to continue!");
+                  return true;
+               }
+               else{
+                  document.write ("User does not want to continue!");
+                  return false;
+               }*/
+}
+</script>
+
+</head>
+<body>
+	<center>
+		<form onsubmit="abc()">
+		<h1 style="color:white;"><marquee scrollamount="20">BOOK YOUR VISITING HOURS</marquee></h1>
+		<div class="TimingsContainer">
+			<h2>Visiting Times in Mornings</h2>
+			<h3>
+				<label><input type="radio" name="Time" value="Mornings "/>9:00am to 11:00am<br /></label>
+				<label><input type="radio" name="Time" value="Mornings"/>11:00am to 11:00am<br /></label>
+			</h3>
+			<h2>Visiting Time in Afternoon</h2>
+			<h3>
+				<label><input type="radio" name="Time" value="Afternoon" />1:00pm to 2:00pm<br></label>
+				<label><input type="radio" name="Time" value="Afternoon" />3:00pm to 5:00pm<br /></label>
+			</h3>
+			<h2>Visiting Time at Night</h2>
+			<h3>
+				<label><input type="radio" name="Time" value="Night" />7:00pm to 9:00pm<br /></label>
+				<label><input type="radio" name="Time" value="Night" />9:00pm to 11:00pm<br /></label>
+			</h3>
+				<label><a href="appoint.html"><input type="submit" value="DONE"/></a></label>
+				<label><a href="HOME.html"><input type="button" value="Return to HOME"/></a></label></form>
+		</div>
+	</center>
+</body>
+</html>

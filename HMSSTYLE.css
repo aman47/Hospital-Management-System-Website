@@ -1,0 +1,246 @@
+
+*
+{
+	margin:0px;
+	padding:0px;
+}
+#f1
+{
+	margin:0px;
+	padding:0px;
+	
+}
+#f2
+{
+	font-family:Verdana;
+	font-size:20px;
+	background-size:cover;
+	margin:0px;
+	line-height:24px;
+}
+#loginBox
+{
+
+border-radius:40px;
+width: 320px;
+height: 400px;
+background-color:rgb(255, 0, 0);opacity:0.7;
+text-align:center;
+line-height:1.5;
+}
+.avatar
+{
+	margin-top:-10px;
+	padding:0px;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	left: calc(-50%,-50px);
+	
+}
+.c1
+{
+	 background-color:#419DFF;
+	 width:100px;
+	 margin:10px;
+}
+.c1:hover
+{
+	background:yellow;
+}
+.navi ul li a
+{
+	display:block;
+	padding:10px;
+	color:white;
+	text-decoration:none;
+	width:150px;
+	
+		
+}
+
+.navi ul li:hover a{
+	color:white;
+}
+.navi ul ul li
+{
+	float:none;
+	position:relative;
+	
+}
+
+.navi ul ul 
+{
+	margin:0px;
+	padding:0px;
+	background:black;
+	top:100%;
+	position:absolute;
+	display:none;
+	
+	
+	
+}
+.navi ul li a:hover{
+	background: transparent;
+}
+.navi ul li a{
+	background:linear-gradient(dodgerblue,dodgerblue,blue);
+}
+.navi ul li:hover>ul
+{
+	display:block;
+}
+.navi{
+	position: relative;
+	height:45px;
+	opacity:0.6;
+	text-align:center;
+	width:100%;
+	background: linear-gradient(orange,blue);
+}
+.navi ul{
+	margin:10 0px;
+	padding:0 0px;
+	list-style:none;
+	position:relative;
+}
+.navi ul:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.navi ul li{
+	float:left;
+	list-style:none;
+}
+.navi ul ul li a{
+padding:25px;
+color:white;
+width:200px;
+height:1px;
+text-align:left;
+}
+.navi ul ul li a:hover{
+transition:0.9s;
+
+}
+.navi ul ul ul{
+	left:100%;
+	top:0;
+}
+.box{
+	border:2px;
+}
+.boxsize
+{
+
+	border-radius:10px;
+	width:500px;
+	height:30px;
+}
+.slider{
+	border: ;
+	border-color:; 
+	overflow:hidden;
+	height:300px;
+}
+.slider figure img{
+	width:20%;
+	float:left;
+}
+.slider figure{
+	position:relative;
+	width:500%;
+	margin:0px;
+	left:0;
+	animation:20s virat infinite;
+	}
+.slider figure div{
+	float:left;
+	width:20%;
+}
+@keyframes virat{
+0%{left:0;}
+10%{left:0;}	
+12%{left:-100%;}
+22%{left:-100%;}
+34%{left:-200%;}
+36%{left:-200%;}
+46%{left:-300%;}
+48%{left:-300%;}
+58%{left:-400%;}
+60%{left:-400%;}
+70%{left:-300%;}
+72%{left:-300%;}
+82%{left:-200%;}
+84%{left:-200%;}
+94%{left:-100%;}
+96%{left:-100%;}
+100%{left:0%;}
+}
+
+#doctor{
+
+	width:500px;
+	height:30px;
+	border-radius:10px;
+	background:white;
+}
+.submit{
+	width:200px;
+	background:rgb(100,100,200);
+	color: white;
+	padding: 10px 0px;
+	margin:10px;
+	border: none;
+	border-radius: 10px;
+	font-size:25px;
+}
+.frame{
+	position: relative;
+	width:55%;
+	height:50%;
+	float:right;
+
+}
+.submit:hover{
+background:rgba(100,100,240,0.6);
+
+}
+#Query{ 
+	float:right;
+	border-radius: 7px;
+    background-color:DodgerBlue;
+    padding: 20px;
+    width:300px; 
+}
+.input{
+	margin: 10px 0;
+	width:100%;
+	height: 30px;
+	border-radius:6px; 
+}
+.submitquery{
+	width:50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+   /*cursor: pointer;*/
+}
+.submitquery:hover{
+background:rgba(255, 0, 0, 0.6);
+}
+.select{
+	    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+} 
